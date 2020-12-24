@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Temperatura {
+	
+	public static void main(String[] args) {
+		final double CINCO = 5;
+		final double NOVE = 9;
+		final double TRINTADOIS = 32;
+		double f = 56;
+		double c;
+		
+		c=(f-TRINTADOIS)*CINCO/NOVE;
+		System.out.println(c);
+	}
+}

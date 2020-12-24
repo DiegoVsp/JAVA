@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class Temperatura {
+	
+	public static void main(String[] args) {
+		final double CINCOPORNOVE = 5/9;
+		final int TRINTADOIS = 32;
+		double f = 14;
+		double c;
+		
+		c=(f-TRINTADOIS)*CINCOPORNOVE;
+		System.out.println(c);
+	}
+}
