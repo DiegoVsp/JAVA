@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class ConversaotipoPrimitivoNumerico {
+
+	public static void main(String[] args) {
+		double a = 1;
+		System.out.println(a);
+		
+		//conversão explicita
+		float b =(float) 1.0;
+	}
+}

@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class ConversaotipoPrimitivoNumerico {
+
+	public static void main(String[] args) {
+		double a = 1; //implícita	
+		System.out.println(a);
+		
+		//conversão explícita(CAST)
+		float b =(float) 1.0;
+		System.out.println(b);
+		
+		int c = 127;
+		byte d = (byte)c;
+		
+		System.out.println(d);
+	}
+}
