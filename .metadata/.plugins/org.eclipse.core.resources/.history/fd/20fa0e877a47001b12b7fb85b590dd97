@@ -1,0 +1,25 @@
+package fundamentos.operadores;
+
+public class DesafioLogico {
+
+	public static void main(String[] args) {
+		// Trabalho na Terça (V OU F)
+		// Trabalho na Quinta(V OU F)
+		
+		boolean trabalho1 = false;
+		boolean trabalho2 = false;
+		
+		boolean comprouTv50 = trabalho1 && trabalho2;
+		boolean comprouTv32 = trabalho1 || trabalho2;
+		boolean tomouSorvete = ComprouTv32 || ComprouTv50;
+		
+		//Operador Unário
+		boolean maisSaudavel = !TomouSorvete;
+		
+		System.out.println("Comprou Tv 50\"? "+ComprouTv50);
+		System.out.println("Comprou Tv 32\"? "+ComprouTv32);
+		System.out.println("Comprou Sorvete\"? "+TomouSorvete);
+		
+		System.out.println("Mais Saudável? "+!TomouSorvete);
+	}
+}

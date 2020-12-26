@@ -1,0 +1,18 @@
+package fundamentos.operadores;
+
+public class DesafioLogico {
+
+	public static void main(String[] args) {
+		// Trabalho na Terça (V OU F)
+		// Trabalho na Quinta(V OU F)
+		
+		boolean trabalho1 = true;
+		boolean trabalho2 = true;
+		
+		if(trabalho1 && trabalho2) {
+			System.out.println("Comprar tv 50 polegadas");
+		}else if(trabalho1 || trabalho2) {
+			System.out.println("Comprar tv 32 polegadas");
+		}
+	}
+}
