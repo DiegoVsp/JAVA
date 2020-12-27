@@ -1,0 +1,13 @@
+package fundamentos.exercicios;
+
+import javax.swing.JOptionPane;
+
+public class Equacao {
+
+	public static void main(String[] args) {
+		
+		String a = JOptionPane.showInputDialog("Digite o valor de A");
+		String b = JOptionPane.showInputDialog("Digite o valor de B");
+		String c = JOptionPane.showInputDialog("Digite o valor de C");
+	}
+}

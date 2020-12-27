@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fundamentos.exercicios.ConverterTemp&apos; to &apos;ConverterParaFahre&apos;&#x0D;&#x0A;- Original project: &apos;exercicios&apos;&#x0D;&#x0A;- Original element: &apos;fundamentos.exercicios.ConverterTemp&apos;&#x0D;&#x0A;- Renamed element: &apos;fundamentos.exercicios.ConverterParaFahre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ConverterTemp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fundamentos.exercicios{ConverterTemp.java[ConverterTemp" matchStrategy="1" name="ConverterParaFahre" qualified="false" references="true" similarDeclarations="false" stamp="1609076228036" textual="false" version="1.0"/>
+</session>

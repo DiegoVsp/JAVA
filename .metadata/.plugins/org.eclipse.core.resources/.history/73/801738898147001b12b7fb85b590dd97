@@ -1,0 +1,14 @@
+package fundamentos.operadores;
+
+public class Ternario {
+
+	public static void main(String[] args) {
+		
+		double media = 4.6;
+		String resultadoRecuperacao = media>=5? "em recuperacao": "reprovado";
+		String resultado = media>=7? "aprovado": resultadoRecuperacao;
+		
+		System.out.println("O aluno está "+resultado);
+		
+	}
+}
