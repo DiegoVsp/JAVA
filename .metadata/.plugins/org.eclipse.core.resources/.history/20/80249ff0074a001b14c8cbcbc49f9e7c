@@ -1,0 +1,23 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		
+		String cond = "1";
+		while (cond.equals("1")) {
+			System.out.println("Digite um número");
+			int n = entrada.nextInt();
+			System.out.println("Deseja inserir algum número? \n1)SIM \n2)NÃO");
+			cond = entrada.next();
+		}
+		System.out.println("Saiu");
+		entrada.close();
+
+	}
+}

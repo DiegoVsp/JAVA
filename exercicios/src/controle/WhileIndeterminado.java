@@ -9,13 +9,15 @@ public class WhileIndeterminado {
 		Scanner entrada = new Scanner(System.in);
 
 		
+		int n=0;
 		String cond = "1";
 		while (cond.equals("1")) {
 			System.out.println("Digite um número");
-			int n = entrada.nextInt();
+			n += entrada.nextInt();
 			System.out.println("Deseja inserir algum número? \n1)SIM \n2)NÃO");
 			cond = entrada.next();
 		}
+		System.out.println("A soma dos números digitados é "+n);
 		System.out.println("Saiu");
 		entrada.close();
 

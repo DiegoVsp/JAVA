@@ -1,0 +1,22 @@
+package controle;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		double total=0, nota=0;
+		int notaValida=0;
+		int i = 0;
+		
+		while(nota!=-1) {
+			if(nota<0 && nota > 10) {
+				System.out.println("Nota Inválida");
+			}else {
+				total+=nota;
+				notaValida++;
+			}
+			i++;
+			
+		}
+	}
+}
